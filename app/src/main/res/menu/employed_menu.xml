@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/log_out_employed"
+        android:title="Log Out"
+        android:icon="@drawable/ic_exit"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/businesses_menu"
+        android:title="confirmed businesses"
+        android:icon="@drawable/ic_business"
+        app:showAsAction="never"/>
+
+
+</menu>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context=".BusinessScreen"
+    android:background="#2196">
+
+    <TextView
+        android:id="@+id/hiName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="hello name"
+        android:textSize="36sp"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintVertical_bias="0.048" />
+
+    <EditText
+        android:id="@+id/businessName"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:gravity="center"
+        android:background="@drawable/edtxt_rounded"
+        android:hint="Enter your business name"
+        android:inputType="textPersonName"
+        app:layout_constraintHorizontal_bias="0.114"
+        app:layout_constraintVertical_bias="0.185" />
+
+    <SearchView
+        android:id="@+id/searchPositions"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:background="@drawable/edtxt_rounded"
+        android:iconifiedByDefault="false"
+        android:queryHint="search your offer positions"
+        app:layout_constraintHorizontal_bias="0.114"
+        app:layout_constraintVertical_bias="0.308">
+
+    </SearchView>
+
+    <ListView
+        android:id="@+id/listPositions"
+        android:layout_width="match_parent"
+        android:layout_height="128dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintHorizontal_bias="0.117"
+        app:layout_constraintVertical_bias="0.356">
+
+    </ListView>
+
+    <SearchView
+        android:id="@+id/searchAddress"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:background="@drawable/edtxt_rounded"
+        android:iconifiedByDefault="false"
+        android:queryHint="find your business address"
+        app:layout_constraintHorizontal_bias="0.114"
+        app:layout_constraintVertical_bias="0.308" />
+
+    <Button
+        android:id="@+id/confirmation"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="60dp"
+        android:text="confirmation" />
+
+
+</LinearLayout>

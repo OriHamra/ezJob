@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textViewPositionName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:text="Position Name: " />
+
+    <TextView
+        android:id="@+id/textViewScopeJob"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:textSize="25sp"
+        android:layout_marginTop="40dp"
+        android:text="Scope Job: " />
+
+    <TextView
+        android:id="@+id/textViewFromAge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:textSize="25sp"
+        android:layout_marginTop="25dp"
+        android:text="From Age: " />
+
+    <TextView
+        android:id="@+id/textViewSalary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:textSize="25sp"
+        android:layout_marginTop="25dp"
+        android:text="Hour Salary: " />
+
+    <TextView
+        android:id="@+id/textViewShifts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:textSize="25sp"
+        android:layout_marginTop="25dp"
+        android:text="Shift Types: " />
+
+    <TextView
+        android:id="@+id/textViewTrail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:textSize="25sp"
+        android:layout_marginTop="25dp"
+        android:text="trail: " />
+
+
+</LinearLayout>
